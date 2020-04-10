@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+}
+.imgCss{
+    width: 100%;
+    height: 685px;
+    /* filter: brightness(50%); */
+    filter: blur(3px) brightness(40%);
+}
+.loginBox{
+    filter: brightness(80%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 5px lightcyan;
+    width: 400px;
+    height: 450px;
+    background-image: none;
+}
